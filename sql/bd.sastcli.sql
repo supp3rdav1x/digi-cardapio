@@ -9,8 +9,9 @@ create table opcoes (
 
 create table respostas (
     id_resposta int not null auto_increment,
-    celular_resp varchar(50),
-    email_resp varchar(200),
+    nome
+    celular varchar(50),
+    email varchar(200),
     resposta1 int,
     resposta2 int,
     resposta3 int,

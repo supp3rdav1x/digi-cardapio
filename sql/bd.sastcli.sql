@@ -1,5 +1,5 @@
-create database sastcli;
-use sastcli;
+create database SastCli;
+use SastCli;
 
 create table opcoes (
     id_opcao int not null auto_increment,
